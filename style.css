@@ -1,0 +1,56 @@
+body {
+    background-color: #003f5c;
+    padding: 40px;
+    
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+
+
+/*  Container row  */
+.containerRow {
+    width: var(--screenWidth, 60%);
+    height: var(--screenHeight, 500px);
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+/* Container Wide */
+.containerWide {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 45%;
+    color: white;
+    border: 1px solid black;
+}
+
+.containerWide h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: x-large;
+}
+
+/* Langunge */
+.langunge {
+    width: 100%;
+    height: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+}
+
+
+/* Container long */
+.containerLong {
+    width: var(--screenWidth, 60%);
+    height: var(--screenHeight, 500px);
+    border: 1px solid gold;
+}
+
+/* phone view */
