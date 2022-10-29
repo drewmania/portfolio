@@ -45,6 +45,11 @@ body {
     gap: 50px;
 }
 
+/* Img */
+.imgLogo {
+    width: 70px;
+    height: 45px;
+}
 
 /* Container long */
 .containerLong {
